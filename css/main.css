@@ -6,7 +6,7 @@
   --white: #ffffff;
 	--regular-text: 16px;
 	--lineheight: 1.65;
-	--userfont: Roboto, sans-serif;
+	--userfont: Montserrat, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 }
 
@@ -22,6 +22,9 @@
 @font-face { src: url("../fonts/rubik-medium.woff2") format("woff2"); font-family: "Rubik"; font-weight: 500; font-style: normal; }
 @font-face { src: url("../fonts/rubik-bold.woff2") format("woff2"); font-family: "Rubik"; font-weight: 700; font-style: normal; }
 
+@font-face { src: url("../fonts/montserrat-regular.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/montserrat-medium.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 500; font-style: normal; }
+@font-face { src: url("../fonts/montserrat-bold.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 700; font-style: normal; }
 /* GENERAL CSS SETTINGS */
 
 ::placeholder { color: #666; }
@@ -51,386 +54,299 @@ body .site-title a,
 }
 
 body.aft-default-mode blockquote:before,
-        body.aft-default-mode.single-post:not(.aft-single-full-header) .entry-header span.min-read-post-format .af-post-format i,
-        body.aft-default-mode .main-navigation ul.children li a, 
-        body.aft-default-mode .main-navigation ul .sub-menu li a,
-        body.aft-default-mode .read-details .entry-meta span a,
-        body.aft-default-mode .read-details .entry-meta span,
-        body.aft-default-mode h4.af-author-display-name,
-        body.aft-default-mode #wp-calendar caption,
-        body.aft-default-mode ul.trail-items li a,
-        body.aft-default-mode {
-        color: #4a4a4a;
-        }
-
-        body.aft-default-mode.single-post:not(.aft-single-full-header) .entry-header span.min-read-post-format .af-post-format i:after{
-        border-color: #4a4a4a;
-        }
-
-          
-
-    
-        body.aft-default-mode .inner-suscribe input[type=submit],
-        body.aft-default-mode button:not(.offcanvas-nav):not(.toggle-menu),
-        body.aft-default-mode input[type="button"],
-        body.aft-default-mode input[type="reset"],
-        body.aft-default-mode input[type="submit"],
-        body.aft-default-mode #scroll-up,
-        body.aft-default-mode .trending-posts-vertical .trending-no,
-        body.aft-default-mode .aft-trending-latest-popular .nav-tabs>li>a:focus-within,
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li a.active,
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li a:hover,
-        body.aft-default-mode .aft-main-banner-wrapper span.trending-no,
-        body.aft-default-mode .read-img .min-read-post-comment,
-        body.aft-default-mode .aft-home-icon {
-        background-color: #ffbf3f;
-        }
-
-        body.aft-default-mode .read-img .min-read-post-comment:after{
-        border-top-color: #ffbf3f;
-        }
-        
-        
-        bodybody.aft-default-mode  .sticky .read-title h4 a:before {
-        color: #ffbf3f;
-        }
-
-
-        body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a:hover,
-        body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a,
-        body.aft-default-mode .related-title,
-        body.aft-default-mode .widget-title span, body.aft-default-mode .header-after1 span{
-        border-bottom-color: #ffbf3f;
-        }
-
-        body.aft-default-mode .af-sp-wave:before, body.aft-default-mode .af-sp-wave:after ,
-        body.aft-default-mode .af-video-slider .swiper-slide.selected{
-        border-color: #ffbf3f;
-        }
-      
-
-            body.aft-default-mode button:not(.offcanvas-nav):not(.toggle-menu),
-        body.aft-default-mode input[type="button"],
-        body.aft-default-mode input[type="reset"],
-        body.aft-default-mode input[type="submit"],
-        body.aft-default-mode .inner-suscribe input[type=submit],
-        body.aft-default-mode #scroll-up,
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a.active:hover, 
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a:hover, 
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a.active,
-        body.aft-default-mode .read-img .min-read-post-comment a,
-        body.aft-default-mode .aft-home-icon a,
-        body.aft-default-mode .aft-main-banner-wrapper span.trending-no,
-        body.aft-default-mode .trending-posts-vertical .trending-no{
-        color: #1c1c1c;
-        }
-    
-            body.aft-default-mode .header-style1:not(.header-layout-2) .top-header {
-        background-color: #1c1c1c;
-        }
-      
-            body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .date-bar-left{
-        color: #ffffff;
-        }
-        body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span{
-        background-color: #ffffff;
-        }
-        body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas:hover .offcanvas-menu span.mbtn-bot,
-        body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas:hover .offcanvas-menu span.mbtn-top,
-        body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span.mbtn-top ,
-        body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span.mbtn-bot{
-        border-color: #ffffff;
-        }
-      
-
-            body.aft-default-mode .widget_text a,
-        body.aft-default-mode footer .widget_text a,
-        body.aft-default-mode #sidr .widget_text a,
-        body.aft-default-mode .author-links a,
-        body.aft-default-mode .entry-content > [class*="wp-block-"] a:not(.has-text-color),
-        body.aft-default-mode .entry-content > ul a,
-        body.aft-default-mode .entry-content > ol a,
-        body.aft-default-mode .entry-content > p a {
-        color: #1e70cd;
-        }
-       
-
-            body.aft-default-mode .main-navigation ul li a,
-        body.aft-default-mode .search-icon:visited, 
-        body.aft-default-mode .search-icon:hover, 
-        body.aft-default-mode .search-icon:focus, 
-        body.aft-default-mode .search-icon:active,
-        body.aft-default-mode .search-icon{ 
-        color: #ffffff;
-        }
-        body.aft-default-mode .ham:before, 
-        body.aft-default-mode .ham:after,
-        body.aft-default-mode .ham{
-        background-color: #ffffff;
-        }
-
-        
-        
-
-            body.aft-default-mode .bottom-bar {
-        background-color: #1c1c1c;
-        }
-         
-
-
-            body.aft-default-mode .main-navigation .menu-description {
-        background-color: #ffbf3f;
-        }
-        body.aft-default-mode .main-navigation .menu-description:after{
-        border-top-color: #ffbf3f;
-        }
-     
-    
-            body.aft-default-mode .main-navigation .menu-description {
-        color: #1c1c1c;
-
-        }
-
-        
-
-            body.aft-default-mode.single-post.aft-single-full-header header.entry-header.pos-rel.aft-no-featured-image ,
-        body.aft-default-mode .aft-blocks.banner-carousel-1-wrap {
-        background-color: #1c1c1c;
-
-        }
-
-    
-
-
-            
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs li,
-        body.aft-default-mode.aft-dark-mode .aft-main-banner-section .read-single.color-pad,
-        body.aft-default-mode .aft-main-banner-section .read-single.color-pad {
-        background-color: #011b23;
-        }
-
-        body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .aft-trending-latest-popular li.af-double-column.list-style:before,
-        body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .read-single.color-pad:before {
-            background-color: #011b23;
-        }
-
-    
-            
-
-        body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a,
-        body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad,
-        body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span a,
-        body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span,
-        body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .read-title h4 a,
-        body.aft-default-mode .aft-main-banner-section .color-pad,
-        body.aft-default-mode .aft-main-banner-section .color-pad .entry-meta span a,
-        body.aft-default-mode .aft-main-banner-section .color-pad .entry-meta span,
-        body.aft-default-mode .aft-main-banner-section .color-pad .read-title h4 a{
-
-        color: #ffffff;
-
-        }
-
-    
-            body.aft-default-mode .page-title,
-        body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a,
-        body.aft-default-mode h1.entry-title,
-        body.aft-default-mode .widget-title,body.aft-default-mode  .header-after1 {
-        color: #1c1c1c;
-        }
-    
-            body.aft-default-mode .read-title h4 a {
-        color: #3a3a3a;
-        }
-    
-            body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span, body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details .entry-title,
-        body.aft-default-mode.single-post.aft-single-full-header .entry-header .cat-links li a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span, body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details .entry-title,
-        body.aft-default-mode .af-main-banner-image-active .main-banner-widget-section .header-after1 span,
-        body.aft-default-mode .site-footer .color-pad .big-grid .read-title h4 a ,
-        body.aft-default-mode .big-grid .read-details .entry-meta span, 
-        body.aft-default-mode .big-grid .read-details .entry-meta span a, 
-        body.aft-default-mode .big-grid .read-title h4 a {
-        color: #ffffff;
-        }
-    
-            body.aft-default-mode.single-post.aft-single-full-header .entry-header span.min-read-post-format .af-post-format i,
-        body.aft-default-mode .af-bg-play i,
-        body.aft-default-mode .af-post-format i {
-        color: #ffffff;
-        }
-        body.aft-default-mode.single-post.aft-single-full-header .entry-header span.min-read-post-format .af-post-format i:after,
-        body.aft-default-mode .af-bg-play i:after,
-        body.aft-default-mode .af-post-format i:after{
-        border-color: #ffffff;
-        }
-    
-            body.aft-default-mode blockquote:before,
-        body.aft-default-mode .sidr, 
-        body.aft-default-mode #comments.comments-area, 
-        body.aft-default-mode .read-single .color-pad, 
-        body.aft-default-mode.single-content-mode-boxed article.af-single-article, 
-        body.aft-default-mode #secondary .widget-area.color-pad .widget, 
-        body.aft-default-mode .read-single.color-pad {
-        background-color: #ffffff;
-        }
-     
-
-            body.aft-default-mode .mailchimp-block .block-title{
-        color: #ffffff;
-        }
-     
-
-            body.aft-default-mode .mailchimp-block{
-        background-color: #1f2125;
-        }
-     
-
-            body.aft-default-mode footer.site-footer{
-        background-color: #1f2125;
-        }
-     
-
-            body.aft-default-mode .site-footer h4.af-author-display-name,
-        body.aft-default-mode .site-footer .newsphere_tabbed_posts_widget .nav-tabs > li > a,
-        body.aft-default-mode .site-footer .color-pad .entry-meta span a,
-        body.aft-default-mode .site-footer .color-pad .entry-meta span,
-        body.aft-default-mode .site-footer .color-pad .read-title h4 a,
-        body.aft-default-mode .site-footer #wp-calendar caption,
-        body.aft-default-mode .site-footer .header-after1 span,
-        body.aft-default-mode .site-footer .widget-title span, 
-        body.aft-default-mode .site-footer .widget ul li,
-        body.aft-default-mode .site-footer .color-pad ,
-        body.aft-default-mode .site-footer a,
-        body.aft-default-mode .site-footer ,
-        body.aft-default-mode footer.site-footer{
-        color: #ffffff;
-        }
-     
-
-            body.aft-default-mode .site-info{
-        background-color: #000000;
-        }
-     
-
-            body.aft-default-mode .site-info .color-pad a,
-        body.aft-default-mode .site-info .color-pad{
-        color: #ffffff;
-        }
-     
-
-            body.aft-default-mode a.newsphere-categories.category-color-1 {
-        border-color: #ffbf3f;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-1 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-1,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-1{
-        color: #ffbf3f;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-2 {
-        border-color: #ff5722;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-2 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-2,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-2{
-        color: #ff5722;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-3 {
-        border-color: #2196F3;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-3 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-3,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-3{
-        color: #2196F3;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-4 {
-        border-color: #d66b00;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-4 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-4,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-4{
-        color: #d66b00;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-5 {
-        border-color: #4caf50;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-5 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-5,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-5{
-        color: #4caf50;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-6 {
-        border-color: #8bc34a;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-6 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-6,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-6{
-        color: #8bc34a;
-        }
-                body.aft-default-mode a.newsphere-categories.category-color-7 {
-        border-color: #00BCD4;
-        }
-        body.aft-default-mode .site-footer a.newsphere-categories.category-color-7 ,
-        body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-7,
-        body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-7{
-        color: #00BCD4;
-        }
-    
-            body,
-        button,
-        input,
-        select,
-        optgroup,
-        textarea, p {
-        font-family: Roboto;
-        }
-        
-            .min-read,
-        .nav-tabs>li,
-        .main-navigation ul li a,
-        .site-title, h1, h2, h3, h4, h5, h6 {
-        font-family: Rubik;
-        }
-        
-
-            .read-title h4 ,
-        .small-gird-style .big-grid .read-title h4,
-        .af-double-column.list-style .read-title h4 {
-        font-size: 16px;
-        }
-    
-            .list-style .read-title h4,
-        .aft-trending-latest-popular .small-gird-style .big-grid .read-title h4,
-        .newsphere_posts_express_list .grid-part .read-title h4, 
-        .af-double-column.list-style .aft-spotlight-posts-1 .read-title h4,
-        .banner-carousel-1 .read-title h4 {
-        font-size: 22px;
-        }
-    
-            .big-grid .read-title h4 {
-        font-size: 32px;
-        }
-    
-            .related-title,
-        .widget-title, .header-after1 {
-        font-size: 22px;
-        }
-    
-            body.single-post .entry-title {
-        font-size: 32px;
-        }
-    
-        
-            body,
-        body.single-post .entry-title,
-        .widget-title span, 
-        .header-after1 span,
-        .read-title h4 {
-        line-height: 1.5;
-        }
-        body.aft-light-mode .aft-blocks.banner-carousel-1-wrap ,
-        body.aft-dark-mode .aft-blocks.banner-carousel-1-wrap ,
-        body.aft-default-mode .aft-blocks.banner-carousel-1-wrap {
-            background-image: url( https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/11/cropped-cyber-3400789_1920-1.jpg);
-
-        }
+body.aft-default-mode.single-post:not(.aft-single-full-header) .entry-header span.min-read-post-format .af-post-format i,
+body.aft-default-mode .main-navigation ul.children li a, 
+body.aft-default-mode .main-navigation ul .sub-menu li a,
+body.aft-default-mode .read-details .entry-meta span a,
+body.aft-default-mode .read-details .entry-meta span,
+body.aft-default-mode h4.af-author-display-name,
+body.aft-default-mode #wp-calendar caption,
+body.aft-default-mode ul.trail-items li a,
+body.aft-default-mode {
+  color: #4a4a4a;
+}
+body.aft-default-mode.single-post:not(.aft-single-full-header) .entry-header span.min-read-post-format .af-post-format i:after{
+  border-color: #4a4a4a;
+}
+body.aft-default-mode .inner-suscribe input[type=submit],
+body.aft-default-mode button:not(.offcanvas-nav):not(.toggle-menu),
+body.aft-default-mode input[type="button"],
+body.aft-default-mode input[type="reset"],
+body.aft-default-mode input[type="submit"],
+body.aft-default-mode #scroll-up,
+body.aft-default-mode .trending-posts-vertical .trending-no,
+body.aft-default-mode .aft-trending-latest-popular .nav-tabs>li>a:focus-within,
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li a.active,
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li a:hover,
+body.aft-default-mode .aft-main-banner-wrapper span.trending-no,
+body.aft-default-mode .read-img .min-read-post-comment,
+body.aft-default-mode .aft-home-icon {
+  background-color: #ffbf3f;
+}
+body.aft-default-mode .read-img .min-read-post-comment:after{
+  border-top-color: #ffbf3f;
+} 
+bodybody.aft-default-mode  .sticky .read-title h4 a:before {
+  color: #ffbf3f;
+}
+body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a:hover,
+body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a,
+body.aft-default-mode .related-title,
+body.aft-default-mode .widget-title span, body.aft-default-mode .header-after1 span{
+  border-bottom-color: #ffbf3f;
+}
+body.aft-default-mode .af-sp-wave:before, body.aft-default-mode .af-sp-wave:after ,
+body.aft-default-mode .af-video-slider .swiper-slide.selected{
+  border-color: #ffbf3f;
+}
+body.aft-default-mode button:not(.offcanvas-nav):not(.toggle-menu),
+body.aft-default-mode input[type="button"],
+body.aft-default-mode input[type="reset"],
+body.aft-default-mode input[type="submit"],
+body.aft-default-mode .inner-suscribe input[type=submit],
+body.aft-default-mode #scroll-up,
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a.active:hover, 
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a:hover, 
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a.active,
+body.aft-default-mode .read-img .min-read-post-comment a,
+body.aft-default-mode .aft-home-icon a,
+body.aft-default-mode .aft-main-banner-wrapper span.trending-no,
+body.aft-default-mode .trending-posts-vertical .trending-no{
+  color: #1c1c1c;
+}
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header {
+  background-color: #1c1c1c;
+}
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .date-bar-left{
+  color: #ffffff;
+}
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span{
+  background-color: #ffffff;
+}
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas:hover .offcanvas-menu span.mbtn-bot,
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas:hover .offcanvas-menu span.mbtn-top,
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span.mbtn-top ,
+body.aft-default-mode .header-style1:not(.header-layout-2) .top-header .offcanvas-menu span.mbtn-bot{
+  border-color: #ffffff;
+}
+body.aft-default-mode .widget_text a,
+body.aft-default-mode footer .widget_text a,
+body.aft-default-mode #sidr .widget_text a,
+body.aft-default-mode .author-links a,
+body.aft-default-mode .entry-content > [class*="wp-block-"] a:not(.has-text-color),
+body.aft-default-mode .entry-content > ul a,
+body.aft-default-mode .entry-content > ol a,
+body.aft-default-mode .entry-content > p a {
+  color: #1e70cd;
+}
+body.aft-default-mode .main-navigation ul li a,
+body.aft-default-mode .search-icon:visited, 
+body.aft-default-mode .search-icon:hover, 
+body.aft-default-mode .search-icon:focus, 
+body.aft-default-mode .search-icon:active,
+body.aft-default-mode .search-icon{ 
+  color: #ffffff;
+}
+body.aft-default-mode .ham:before, 
+body.aft-default-mode .ham:after,
+body.aft-default-mode .ham{
+  background-color: #ffffff;
+}
+body.aft-default-mode .bottom-bar {
+  background-color: #1c1c1c;
+}
+body.aft-default-mode .main-navigation .menu-description {
+  background-color: #ffbf3f;
+}
+body.aft-default-mode .main-navigation .menu-description:after{
+  border-top-color: #ffbf3f;
+}
+body.aft-default-mode .main-navigation .menu-description {
+  color: #1c1c1c;
+}
+body.aft-default-mode.single-post.aft-single-full-header header.entry-header.pos-rel.aft-no-featured-image ,
+body.aft-default-mode .aft-blocks.banner-carousel-1-wrap {
+  background-color: #1c1c1c;
+}
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs li,
+body.aft-default-mode.aft-dark-mode .aft-main-banner-section .read-single.color-pad,
+body.aft-default-mode .aft-main-banner-section .read-single.color-pad {
+  background-color: #011b23;
+}
+body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .aft-trending-latest-popular li.af-double-column.list-style:before,
+body.aft-default-mode.aft-transparent-main-banner-box .aft-main-banner-section .read-single.color-pad:before {
+  background-color: #011b23;
+}
+body.aft-default-mode .aft-main-banner-section .aft-trending-latest-popular .nav-tabs>li>a,
+body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad,
+body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span a,
+body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .entry-meta span,
+body.aft-default-mode.aft-dark-mode .aft-main-banner-section .color-pad .read-title h4 a,
+body.aft-default-mode .aft-main-banner-section .color-pad,
+body.aft-default-mode .aft-main-banner-section .color-pad .entry-meta span a,
+body.aft-default-mode .aft-main-banner-section .color-pad .entry-meta span,
+body.aft-default-mode .aft-main-banner-section .color-pad .read-title h4 a{
+  color: #ffffff;
+}
+body.aft-default-mode .page-title,
+body.aft-default-mode .newsphere_tabbed_posts_widget .nav-tabs > li > a,
+body.aft-default-mode h1.entry-title,
+body.aft-default-mode .widget-title,body.aft-default-mode  .header-after1 {
+  color: #1c1c1c;
+}
+body.aft-default-mode .read-title h4 a {
+  color: #3a3a3a;
+}
+body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span, body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details .entry-title,
+body.aft-default-mode.single-post.aft-single-full-header .entry-header .cat-links li a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span a, body.aft-default-mode.single-post.aft-single-full-header .entry-header .entry-meta span, body.aft-default-mode.single-post.aft-single-full-header .entry-header .read-details .entry-title,
+body.aft-default-mode .af-main-banner-image-active .main-banner-widget-section .header-after1 span,
+body.aft-default-mode .site-footer .color-pad .big-grid .read-title h4 a ,
+body.aft-default-mode .big-grid .read-details .entry-meta span, 
+body.aft-default-mode .big-grid .read-details .entry-meta span a, 
+body.aft-default-mode .big-grid .read-title h4 a {
+  color: #ffffff;
+}
+body.aft-default-mode.single-post.aft-single-full-header .entry-header span.min-read-post-format .af-post-format i,
+body.aft-default-mode .af-bg-play i,
+body.aft-default-mode .af-post-format i {
+  color: #ffffff;
+}
+body.aft-default-mode.single-post.aft-single-full-header .entry-header span.min-read-post-format .af-post-format i:after,
+body.aft-default-mode .af-bg-play i:after,
+body.aft-default-mode .af-post-format i:after{
+  border-color: #ffffff;
+}
+body.aft-default-mode blockquote:before,
+body.aft-default-mode .sidr, 
+body.aft-default-mode #comments.comments-area, 
+body.aft-default-mode .read-single .color-pad, 
+body.aft-default-mode.single-content-mode-boxed article.af-single-article, 
+body.aft-default-mode #secondary .widget-area.color-pad .widget, 
+body.aft-default-mode .read-single.color-pad {
+  background-color: #ffffff;
+}
+body.aft-default-mode .mailchimp-block .block-title{
+  color: #ffffff;
+}
+body.aft-default-mode .mailchimp-block{
+  background-color: #1f2125;
+}
+body.aft-default-mode footer.site-footer{
+  background-color: #1f2125;
+}
+body.aft-default-mode .site-footer h4.af-author-display-name,
+body.aft-default-mode .site-footer .newsphere_tabbed_posts_widget .nav-tabs > li > a,
+body.aft-default-mode .site-footer .color-pad .entry-meta span a,
+body.aft-default-mode .site-footer .color-pad .entry-meta span,
+body.aft-default-mode .site-footer .color-pad .read-title h4 a,
+body.aft-default-mode .site-footer #wp-calendar caption,
+body.aft-default-mode .site-footer .header-after1 span,
+body.aft-default-mode .site-footer .widget-title span, 
+body.aft-default-mode .site-footer .widget ul li,
+body.aft-default-mode .site-footer .color-pad ,
+body.aft-default-mode .site-footer a,
+body.aft-default-mode .site-footer ,
+body.aft-default-mode footer.site-footer{
+  color: #ffffff;
+}
+body.aft-default-mode .site-info{
+  background-color: #000000;
+}
+body.aft-default-mode .site-info .color-pad a,
+body.aft-default-mode .site-info .color-pad{
+  color: #ffffff;
+}
+body.aft-default-mode a.newsphere-categories.category-color-1 {
+  border-color: #ffbf3f;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-1 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-1,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-1{
+  color: #ffbf3f;
+}
+body.aft-default-mode a.newsphere-categories.category-color-2 {
+  border-color: #ff5722;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-2 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-2,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-2{
+  color: #ff5722;
+}
+body.aft-default-mode a.newsphere-categories.category-color-3 {
+  border-color: #2196F3;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-3 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-3,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-3{
+  color: #2196F3;
+}
+body.aft-default-mode a.newsphere-categories.category-color-4 {
+  border-color: #d66b00;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-4 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-4,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-4{
+  color: #d66b00;
+}
+body.aft-default-mode a.newsphere-categories.category-color-5 {
+  border-color: #4caf50;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-5 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-5,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-5{
+  color: #4caf50;
+}
+body.aft-default-mode a.newsphere-categories.category-color-6 {
+  border-color: #8bc34a;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-6 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-6,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-6{
+  color: #8bc34a;
+}
+body.aft-default-mode a.newsphere-categories.category-color-7 {
+  border-color: #00BCD4;
+}
+body.aft-default-mode .site-footer a.newsphere-categories.category-color-7 ,
+body.aft-default-mode .aft-main-banner-section .color-pad .cat-links li a.newsphere-categories.category-color-7,
+body.aft-default-mode .main-banner-widget-section .color-pad .cat-links li a.newsphere-categories.category-color-7{
+  color: #00BCD4;
+}
+body, button, input, select, optgroup, textarea, p {
+  font-family: var(--userfont);
+}
+.min-read, .nav-tabs>li,
+.main-navigation ul li a,
+.site-title, h1, h2, h3, h4, h5, h6 {
+  font-family: var(--userfont);
+}
+.read-title h4 ,
+.small-gird-style .big-grid .read-title h4,
+.af-double-column.list-style .read-title h4 {
+  font-size: 16px;
+}
+.list-style .read-title h4,
+.aft-trending-latest-popular .small-gird-style .big-grid .read-title h4,
+.newsphere_posts_express_list .grid-part .read-title h4, 
+.af-double-column.list-style .aft-spotlight-posts-1 .read-title h4,
+.banner-carousel-1 .read-title h4 {
+  font-size: 22px;
+}
+.big-grid .read-title h4 {
+  font-size: 32px;
+}
+.related-title,
+.widget-title, .header-after1 {
+  font-size: 22px;
+}
+body.single-post .entry-title {
+  font-size: 32px;
+}
+body, body.single-post .entry-title,
+.widget-title span, .header-after1 span, .read-title h4 {
+  line-height: 1.5;
+}
+body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft-blocks.banner-carousel-1-wrap , body.aft-default-mode .aft-blocks.banner-carousel-1-wrap {
+  background-image: url( https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/11/cropped-cyber-3400789_1920-1.jpg);
+}
 
