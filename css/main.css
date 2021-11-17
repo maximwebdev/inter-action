@@ -349,4 +349,44 @@ body, body.single-post .entry-title,
 body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft-blocks.banner-carousel-1-wrap , body.aft-default-mode .aft-blocks.banner-carousel-1-wrap {
   background-image: url( https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/11/cropped-cyber-3400789_1920-1.jpg);
 }
+.lang-list {
+  margin: 0 40px;
+  font-size: 0;
+}
+.lang-item {
+  background-color: transparent !important;
+  color: var(--white) !important;
+  font-weight: 400;
+  padding: 0 8px;
+  line-height: 1.3;
+}
+.lang-item:first-child {
+  padding-left: 0;
+}
+.date-bar-left {
+  font-size: 14px;
+}
+.top-bar-flex .top-bar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-auth {
+  margin-left: 40px;
+}
+.auth-block {
+  color: var(--white);
+}
+.auth-block a {
+  display: inline-block;
+  line-height: 2.4;
+  color: var(--white) !important;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.site-info .af-container-row{
+  font-size: 14px;
+}
+.primary-footer {
+  padding: 15px 0 30px;
+}
 

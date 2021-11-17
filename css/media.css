@@ -12,17 +12,41 @@
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
-
+  .header-style1 .top-header {
+    padding: 10px 0;
+  }
+  .top-bar-flex .top-bar-right {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .top-auth {
+    margin-top: 7px;
+    margin-left: 0;
+    text-align: right;
+  }
+  .off-cancas-panel {
+    margin-right: 0;
+  }
+  .lang-list {
+    margin: 0 20px;
+  }
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
-
+  .date-bar-left {
+    display: none;
+  }
 }
 
 /* xs <= Small (sm) */
 @media (max-width : 576px) {
-
+  .lang-list {
+    margin: 0;
+  }
+  .off-cancas-panel {
+    margin-right: 15px;
+  }
 }
 
 

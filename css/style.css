@@ -1163,6 +1163,8 @@ body.aft-default-mode .header-style1 .top-header .offcanvas:hover .offcanvas-men
 body.sidr-open #sidr{
     visibility: visible;
     opacity: 1;
+    left: 0;
+    z-index: 103;
 }
 .sidr-class-sidr-button-close {
     font-size: 34px;
@@ -1954,7 +1956,7 @@ input.search-submit {
 /*exclusive posts-----*/
 .exclusive-posts {
     font-size: 14px;
-    line-height: 45px;
+    line-height: 50px;
     margin: 0px;
     position: relative;
 }
@@ -1967,6 +1969,9 @@ input.search-submit {
     position: relative;
     padding: 0 15px;
     margin-right: 5px;
+    display: flex;
+    align-items: center;
+    height: 60px;
 }
 
 .exclusive-posts .exclusive-now strong span{
@@ -1974,7 +1979,7 @@ input.search-submit {
 }
 
 .exclusive-slides {
-    padding: 0 5px;
+    padding: 5px;
     overflow: hidden;
 }
 
@@ -1997,8 +2002,8 @@ input.search-submit {
 }
 
 .exclusive-posts .marquee a span.circle-marq {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     border-radius: 100%;
     display: inline-block;
@@ -2008,8 +2013,8 @@ input.search-submit {
 }
 
 .exclusive-posts .marquee a img {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     object-fit: cover;
 }
 
