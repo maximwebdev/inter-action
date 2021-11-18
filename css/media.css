@@ -37,6 +37,19 @@
   .date-bar-left {
     display: none;
   }
+  .comments-item__img {
+    width: 80px;
+    height: 80px;
+  }
+  .comments-item__info {
+    top: 0;
+  }
+  .comments-item {
+    margin: 7px 0;
+  }
+  .comments-item__info .title {
+    margin: 7px 0;
+  }
 }
 
 /* xs <= Small (sm) */
@@ -46,6 +59,16 @@
   }
   .off-cancas-panel {
     margin-right: 15px;
+  }
+  .comments-item__img {
+    width: 60px;
+    height: 60px;
+  }
+  .form-row {
+    grid-gap: 15px;
+  }
+  .grid-items-2 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
