@@ -50,6 +50,9 @@
   .comments-item__info .title {
     margin: 7px 0;
   }
+  .grid-items-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* xs <= Small (sm) */

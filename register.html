@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="libs/sidr/css/sidr.bare.min.css">
   <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="libs/select2/css/select2.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
@@ -308,22 +309,101 @@
           </h4>
         </div>
         <form action="" class="user-form">
-          <div class="form-row">
+          <div class="form-row grid-items-3">
             <div class="form-item">
-              <label for="name">ФИО:</label>
-              <input type="text" id="name">
+              <label for="first_name">Фамилия:</label>
+              <input type="text" id="first_name">
+            </div>
+            <div class="form-item">
+              <label for="second_name">Имя:</label>
+              <input type="text" id="second_name">
+            </div>
+            <div class="form-item">
+              <label for="third_name">Отчество:</label>
+              <input type="text" id="third_name">
+            </div>
+          </div>
+          <div class="form-row grid-items-2">
+            <div class="form-item">
+              <label for="birth_day">Дата рождения:</label>
+              <input type="text" id="birth_day">
+            </div>
+            <div class="form-item">
+              <label for="birth_place">Место рождения:</label>
+              <select class="theme-select" name="birth_place" id="birth_place">
+                <option value="Nur-Sultan">Нур-Султан</option>
+                <option value="Almaty">Алматы</option>
+                <option value="Shynkent">Шымкент</option>
+                <option value="Akmola-obl">Акмолинская область</option>
+                <option value="Aktobe-obl">Актюбинская область</option>
+                <option value="Almaty-obl">Алматинская область</option>
+                <option value="Atyrau-obl">Атырауская область</option>
+                <option value="Vostocno-Kaz-obl">Восточно-Казахстанская область</option>
+                <option value="Zhambyl-obl">Жамбылская область</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row grid-items-2">
+            <div class="form-item">
+              <label for="category">Категория:</label>
+              <select class="theme-select" name="category" id="category">
+                <option value="child-teacher">Воспитатель</option>
+                <option value="pupil">Ученик школы</option>
+                <option value="college-student">Студент колледжа</option>
+                <option value="state-student">Студент университета</option>
+                <option value="magistr">Магистрант</option>
+                <option value="resident">Резидент</option>
+                <option value="internat">Интернат</option>
+                <option value="doctorant">Докторант</option>
+                <option value="teacher">Учитель</option>
+                <option value="other">Работаю в другой сфере</option>
+                <option value="not-working">Не работаю</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label for="cur-class">Класс:</label>
+              <select class="theme-select" name="cur-class" id="cur-class">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
             </div>
           </div>
           <div class="form-row">
             <div class="form-item">
-              <label for="email">E-mail:</label>
-              <input type="text" id="email">
+              <label for="cur-place">Актуальное место <span>(напишите вручную название села, города, где вы учитесь или работаете)</span>:</label>
+              <input type="text" id="cur-place">
             </div>
           </div>
           <div class="form-row">
+            <div class="form-item">
+              <label for="phone">Телефон:</label>
+              <input type="text" id="phone" placeholder="+7 (000)-000-00-00">
+            </div>
+          </div>
+          <div class="form-row grid-items-2">
             <div class="form-item">
               <label for="password">Пароль:</label>
               <input type="password" id="password">
+            </div>
+            <div class="form-item">
+              <label for="repeat-password">Повторите пароль:</label>
+              <input type="password" id="repeat-password">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-item">
+              <label for="email">E-mail <span>(на эту почту будет выслан код активации и данные вашего аккаунта на нашем)</span>:</label>
+              <input type="text" id="email">
             </div>
           </div>
           <div class="form-row">
@@ -474,6 +554,8 @@
   <script src="libs/jquery-match-height/jquery.matchHeight.min.js"></script>
   <script src="libs/marquee/jquery.marquee.min.js"></script>
   <script src="libs/theiaStickySidebar/theia-sticky-sidebar.min.js"></script>
+  <script src="libs/imask/imask.js"></script>
+  <script src="libs/select2/js/select2.min.js"></script>
   <script src="libs/script.js"></script>
   <!-- <script src="libs/fixed-header-script.js"></script> -->
   <script src="libs/pagination-script.js"></script>
