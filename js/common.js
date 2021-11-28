@@ -7,20 +7,30 @@ document.addEventListener("DOMContentLoaded", function () {
     e.preventDefault();
   });
 
-  var dateMask = IMask(
-    document.getElementById('birth_day'),
-    {
-      mask: Date,
-      min: new Date(1950, 0, 1),
-      max: new Date(2020, 0, 1),
-      lazy: false
-    });
+  const dateMask = document.getElementById('birth_day');
+  if (dateMask) {
+    IMask(
+      dateMask,
+      {
+        mask: Date,
+        min: new Date(1950, 0, 1),
+        max: new Date(2020, 0, 1),
+        lazy: false
+      });  
+  }
+  const phoneMask = document.getElementById('phone');
+  if (phoneMask) {
+    IMask(
+      phoneMask, {
+        mask: '+{7} (000)-000-00-00'
+      });
+  }
+  
 
-  var phoneMask = IMask(
-    document.getElementById('phone'), {
-      mask: '+{7} (000)-000-00-00'
-    });
+  $('.theme-select').select2();
 
-    $('.theme-select').select2();
+  const player = new Plyr('#player', {
+    autoplay: true
+  });
 
 });

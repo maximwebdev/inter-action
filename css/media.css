@@ -53,6 +53,9 @@
   .grid-items-3 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .theme-filter-form {
+    padding: 10px 15px;
+  }
 }
 
 /* xs <= Small (sm) */
