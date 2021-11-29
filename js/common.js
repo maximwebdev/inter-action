@@ -27,10 +27,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   
 
-  $('.theme-select').select2();
-
-  const player = new Plyr('#player', {
-    autoplay: true
+  $('.theme-select').select2({
+    placeholder: "Select a state",
   });
 
 });

@@ -594,3 +594,36 @@ body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft
 .welcome-block__title .title {
   color: #fff;
 }
+.main-navigation .sub-menu .menu-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.main-navigation .sub-menu .menu-item:last-child::after {
+  display: none;
+}
+.vacancy-block {
+  margin: 30px auto 50px;
+  max-width: 1100px;
+}
+.vacancy-list {
+  margin-top: 30px;;
+}
+.list-style .read-single {
+  align-items: flex-start;
+}
+.list-style .read-single .read-details {
+  padding: 10px !important;
+}
+.header-layout-3 .site-header .site-branding .site-title, .site-branding .site-title {
+  font-size: 34px;
+}
+.banner-trending-posts-wrapper .nav-tabs>li>a i {
+  display: block;
+  margin-bottom: 7px;
+  margin-right: 0;
+}

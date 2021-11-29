@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="aft-default-mode  aft-sticky-sidebar single single-post">
+<body class="aft-default-mode  aft-sticky-sidebar">
 
   <div id="af-preloader">
     <div class="af-preloader-wrap">
@@ -126,7 +126,7 @@
               <div class="top-auth">
                 <div class="auth-block">
                   <i class="fa fa-user" aria-hidden="true"></i>
-                  <a href="#">Вход/Регистрация</a>
+                  <a href="/register.html">Вход/Регистрация</a>
                 </div>
               </div>
             </div>
@@ -300,130 +300,182 @@
       </div>
     </header>
 
-
     <div id="content" class="container-wrapper">
-      <div class="account-form">
-        <div class="em-title-subtitle-wrap">
-          <h4 class="widget-title header-after1">
-            <span class="header-after">Регистрация</span>
-          </h4>
+      <div class="vacancy-block">
+        <div class="vacancy-filter theme-filter">
+          <div class="em-title-subtitle-wrap">
+            <h4 class="widget-title header-after1">
+              <span class="header-after">Поиск</span>
+            </h4>
+          </div>
+          <form action="" class="theme-filter-form">
+            <div class="form-row grid-items-2">
+              <div class="form-item">
+                <label for="category">Вакансия для:</label>
+                <select class="theme-select" name="category" id="category">
+                  <option value="select" disabled selected>Выбрать</option>
+                  <option value="child-teacher">Воспитатель</option>
+                  <option value="pupil">Ученик школы</option>
+                  <option value="college-student">Студент колледжа</option>
+                  <option value="state-student">Студент университета</option>
+                  <option value="magistr">Магистрант</option>
+                  <option value="resident">Резидент</option>
+                  <option value="internat">Интернат</option>
+                  <option value="doctorant">Докторант</option>
+                  <option value="teacher">Учитель</option>
+                  <option value="other">Работаю в другой сфере</option>
+                  <option value="not-working">Не работаю</option>
+                </select>
+              </div>
+              <div class="form-item">
+                <label for="birth_place">Область:</label>
+                <select class="theme-select" name="birth_place" id="birth_place">
+                  <option value="select" disabled selected>Выберите область</option>
+                  <option value="Nur-Sultan">Нур-Султан</option>
+                  <option value="Almaty">Алматы</option>
+                  <option value="Shynkent">Шымкент</option>
+                  <option value="Akmola-obl">Акмолинская область</option>
+                  <option value="Aktobe-obl">Актюбинская область</option>
+                  <option value="Almaty-obl">Алматинская область</option>
+                  <option value="Atyrau-obl">Атырауская область</option>
+                  <option value="Vostocno-Kaz-obl">Восточно-Казахстанская область</option>
+                  <option value="Zhambyl-obl">Жамбылская область</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row theme-filter-form__btn">
+              <div class="form-item">
+                <button type="submit" class="btn">Найти</button>
+              </div>
+            </div>
+          </form>
         </div>
-        <form action="" class="user-form">
-          <div class="form-row grid-items-3">
-            <div class="form-item">
-              <label for="first_name">Фамилия:</label>
-              <input type="text" id="first_name">
+        <div class="vacancy-list">
+          <div class="single-column-posts">
+            <div class="em-title-subtitle-wrap">
+              <h4 class="widget-title header-after1">
+                <span class="header-after">Список вакансии</span>
+              </h4>
             </div>
-            <div class="form-item">
-              <label for="second_name">Имя:</label>
-              <input type="text" id="second_name">
-            </div>
-            <div class="form-item">
-              <label for="third_name">Отчество:</label>
-              <input type="text" id="third_name">
+            <div class="list-style clearfix">
+              <div class="read-single color-pad">
+                <div class="read-img pos-rel col-2 float-l read-bg-img af-sec-list-img">
+                  <img width="300" height="200"
+                    src="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_U381E1SOZI-300x200.jpg"
+                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
+                    srcset="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_U381E1SOZI-300x200.jpg 300w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_U381E1SOZI-768x512.jpg 768w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_U381E1SOZI-1024x683.jpg 1024w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_U381E1SOZI.jpg 1500w"
+                    sizes="(max-width: 300px) 100vw, 300px">
+                </div>
+                <div class="read-details col-2 float-l pad af-sec-list-txt color-tp-pad">
+                  <div class="read-title">
+                    <h4>
+                      <a
+                        href="https://demo.afthemes.com/newsphere-pro/blog/2018/07/18/google-hit-with-record-eu-fine-over-shopping-service/">Google
+                        hit with record EU fine over Shopping service</a>
+                    </h4>
+                  </div>
+                  <div class="entry-meta">
+                    <span class="author-links">
+                      <span class="item-metadata posts-date">
+                        <i class="fa fa-clock-o"></i>
+                        3 years ago
+                      </span>
+                      <span class="item-metadata posts-author byline">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <a href="https://demo.afthemes.com/newsphere-pro/blog/author/sup3rv1s0r/">
+                          AF themes
+                        </a>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="read-descprition full-item-discription">
+                    <div class="post-description">
+                      <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, At vero eos et accusam et justo duo eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, At vero eos et accusam et justo duo...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="read-single color-pad">
+                <div class="read-img pos-rel col-2 float-l read-bg-img af-sec-list-img">
+                  <img width="300" height="200"
+                    src="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_NWAPXFUMDW-300x200.jpg"
+                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
+                    srcset="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_NWAPXFUMDW-300x200.jpg 300w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_NWAPXFUMDW-768x512.jpg 768w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_NWAPXFUMDW-1024x683.jpg 1024w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_NWAPXFUMDW.jpg 1500w"
+                    sizes="(max-width: 300px) 100vw, 300px">
+                </div>
+                <div class="read-details col-2 float-l pad af-sec-list-txt color-tp-pad">
+                  <div class="read-title">
+                    <h4>
+                      <a
+                        href="https://demo.afthemes.com/newsphere-pro/blog/2018/07/18/google-hit-with-record-eu-fine-over-shopping-service/">Business
+                        booming for giant cargo planes</a>
+                    </h4>
+                  </div>
+                  <div class="entry-meta">
+                    <span class="author-links">
+                      <span class="item-metadata posts-date">
+                        <i class="fa fa-clock-o"></i>
+                        3 years ago
+                      </span>
+                      <span class="item-metadata posts-author byline">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <a href="https://demo.afthemes.com/newsphere-pro/blog/author/sup3rv1s0r/">
+                          AF themes
+                        </a>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="read-descprition full-item-discription">
+                    <div class="post-description">
+                      <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, At vero eos et accusam et justo duo Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, at quisquam delectus et quis dolor.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="read-single color-pad">
+                <div class="read-img pos-rel col-2 float-l read-bg-img af-sec-list-img">
+                  <img width="300" height="199"
+                    src="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_W2QMUQHOGE-300x199.jpg"
+                    class="attachment-medium size-medium wp-post-image" alt="" loading="lazy"
+                    srcset="https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_W2QMUQHOGE-300x199.jpg 300w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_W2QMUQHOGE-768x510.jpg 768w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_W2QMUQHOGE-1024x680.jpg 1024w, https://demo.afthemes.com/newsphere-pro/wp-content/uploads/2018/07/StockSnap_W2QMUQHOGE.jpg 1500w"
+                    sizes="(max-width: 300px) 100vw, 300px">
+                </div>
+                <div class="read-details col-2 float-l pad af-sec-list-txt color-tp-pad">
+                  <div class="read-title">
+                    <h4>
+                      <a
+                        href="https://demo.afthemes.com/newsphere-pro/blog/2018/07/18/google-hit-with-record-eu-fine-over-shopping-service/">Trump-Putin:
+                        The understandable story</a>
+                    </h4>
+                  </div>
+                  <div class="entry-meta">
+                    <span class="author-links">
+                      <span class="item-metadata posts-date">
+                        <i class="fa fa-clock-o"></i>
+                        3 years ago
+                      </span>
+                      <span class="item-metadata posts-author byline">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <a href="https://demo.afthemes.com/newsphere-pro/blog/author/sup3rv1s0r/">
+                          AF themes
+                        </a>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="read-descprition full-item-discription">
+                    <div class="post-description">
+                      <p>Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                        aliquyam erat, At vero eos et accusam et justo duo... Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, porro.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="form-row grid-items-2">
-            <div class="form-item">
-              <label for="birth_day">Дата рождения:</label>
-              <input type="text" id="birth_day">
-            </div>
-            <div class="form-item">
-              <label for="birth_place">Место рождения:</label>
-              <select class="theme-select" name="birth_place" id="birth_place">
-                <option value="select" disabled selected>Выберите область</option>
-                <option value="Akmola-obl">Акмолинская область</option>
-                <option value="Aktobe-obl">Актюбинская область</option>
-                <option value="Almaty-obl">Алматинская область</option>
-                <option value="Atyrau-obl">Атырауская область</option>
-                <option value="Vostocno-Kaz-obl">Восточно-Казахстанская область</option>
-                <option value="Zhambyl-obl">Жамбылская область</option>
-                <option value="Zhambyl-obl">Карагандинская область</option>
-                <option value="Zhambyl-obl">Кустанайская область</option>
-                <option value="Zhambyl-obl">Кызылординская область</option>
-                <option value="Zhambyl-obl">Мангистауская область</option>
-                <option value="Zhambyl-obl">Туркистанская область</option>
-                <option value="Zhambyl-obl">Павлодарская область</option>
-                <option value="Zhambyl-obl">Северо-Казахстанская область</option>
-                <option value="Zhambyl-obl">Западно-Казахстанская область</option>
-                <option value="Zhambyl-obl">Другая страна</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-row grid-items-2">
-            <div class="form-item">
-              <label for="category">Категория:</label>
-              <select class="theme-select" name="category" id="category">
-                <option value="select" disabled selected>Выберите категорию</option>
-                <option value="child-teacher">Воспитатель</option>
-                <option value="pupil">Ученик школы</option>
-                <option value="college-student">Студент колледжа</option>
-                <option value="state-student">Студент университета</option>
-                <option value="magistr">Магистрант</option>
-                <option value="resident">Резидент</option>
-                <option value="internat">Интернат</option>
-                <option value="doctorant">Докторант</option>
-                <option value="teacher">Учитель</option>
-                <option value="other">Работаю в другой сфере</option>
-                <option value="not-working">Не работаю</option>
-              </select>
-            </div>
-            <div class="form-item">
-              <label for="cur-class">Класс:</label>
-              <select class="theme-select" name="cur-class" id="cur-class">
-                <option value="select" disabled selected>Выберите класс</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-item">
-              <label for="cur-place">Актуальное место <span>(напишите вручную название села, города, где вы учитесь или работаете)</span>:</label>
-              <input type="text" id="cur-place">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-item">
-              <label for="phone">Телефон:</label>
-              <input type="text" id="phone" placeholder="+7 (000)-000-00-00">
-            </div>
-          </div>
-          <div class="form-row grid-items-2">
-            <div class="form-item">
-              <label for="password">Пароль:</label>
-              <input type="password" id="password">
-            </div>
-            <div class="form-item">
-              <label for="repeat-password">Повторите пароль:</label>
-              <input type="password" id="repeat-password">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-item">
-              <label for="email">E-mail <span>(на эту почту будет выслан код активации и данные вашего аккаунта на нашем)</span>:</label>
-              <input type="text" id="email">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-item">
-              <button type="submit" class="btn user-form-btn">Зарегистрироваться</button>
-            </div>
-          </div>
-          <div class="form-row form-text">
-            <p>У вас уже есть аккаунт? <a href="/sign.html">Выполнить вход</a></p>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
 
