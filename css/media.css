@@ -56,6 +56,10 @@
   .theme-filter-form {
     padding: 10px 15px;
   }
+  .theme-table-result {
+    text-align: left;
+    font-size: 14px;
+  }
 }
 
 /* xs <= Small (sm) */

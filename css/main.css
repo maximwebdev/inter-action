@@ -559,21 +559,38 @@ body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft
 .theme-table table {
   width: 100%;
   background-color: #fff;
+  margin: 0;
 }
 .theme-table table tr {
   border-bottom: 1px solid rgba(137,137,137,.2);
 }
-.theme-table table th {
-  font-size: 14px;
-  padding: 5px;
-  text-align: center;
-}
+.theme-table table th,
 .theme-table table tr td {
-  padding: 5px;
+  padding: 10px 5px;
   text-align: center;
   font-size: 14px;
+}
+.theme-table-result {
+  text-align: right;
+  padding: 20px 15px 5px;
+  font-weight: 700;
+}
+.theme-table-result span {
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 20px;
 }
 .rating-table {
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.welcome-block {
+  position: relative;
+  z-index: 1;
+}
+.welcome-block__text {
+  color: #fff;
+}
+.welcome-block__title .title {
+  color: #fff;
 }
