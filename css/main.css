@@ -538,6 +538,11 @@ body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft
   background-color: #fff;
   padding: 20px 15px;
 }
+.filter_title {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
 .rating-block .theme-filter-form {
   max-width: 900px;
   margin: 30px auto 0;
@@ -626,4 +631,11 @@ body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft
   display: block;
   margin-bottom: 7px;
   margin-right: 0;
+}
+.logotype {
+  display: block;
+  max-width: 200px;
+}
+.main-header .af-flex-container {
+  justify-content: space-between;
 }

@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
   <link rel="stylesheet" href="libs/select2/css/select2.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
 
@@ -310,36 +311,96 @@
           </div>
           <form action="" class="theme-filter-form">
             <div class="form-row grid-items-2">
+              <div class="select-deadline">
+                <span class="filter_title">Дедлайн:</span>
+                <div class="form-row grid-items-2">
+                  <div class="form-item">
+                    <label for="deadline_from">От:</label>
+                    <input type="text" id="deadline_from" class="datepicker">
+                  </div>
+                  <div class="form-item">
+                    <label for="deadline_to">До:</label>
+                    <input type="text" id="deadline_to" class="datepicker">
+                  </div>
+                </div>
+              </div>
+              <div class="select-age">
+                <span class="filter_title">Возрастная категория:</span>
+                <div class="form-row grid-items-2">
+                  <div class="form-item">
+                    <label for="age_from">От:</label>
+                    <input type="number" id="age_from" min="1" max="100">
+                  </div>
+                  <div class="form-item">
+                    <label for="age_to">До:</label>
+                    <input type="number" id="age_to" min="1" max="100">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row grid-items-2">
               <div class="form-item">
-                <label for="category">Вакансия для:</label>
+                <label for="category">Вид професии:</label>
                 <select class="theme-select" name="category" id="category">
                   <option value="select" disabled selected>Выбрать</option>
-                  <option value="child-teacher">Воспитатель</option>
-                  <option value="pupil">Ученик школы</option>
-                  <option value="college-student">Студент колледжа</option>
-                  <option value="state-student">Студент университета</option>
-                  <option value="magistr">Магистрант</option>
-                  <option value="resident">Резидент</option>
-                  <option value="internat">Интернат</option>
-                  <option value="doctorant">Докторант</option>
-                  <option value="teacher">Учитель</option>
-                  <option value="other">Работаю в другой сфере</option>
-                  <option value="not-working">Не работаю</option>
+                  <option value="select">педагогические и наука</option>
+                  <option value="select">культура и искусство</option>
+                  <option value="select">инженерные и экономические</option>
+                  <option value="select">сми и издательство</option>
+                  <option value="select">политика и госслужба</option>
+                  <option value="select">it</option>
+                  <option value="select">красота и мода</option>
+                  <option value="select">космос и авиация</option>
+                  <option value="select">сервис и туризм</option>
+                  <option value="select">связанные с животными</option>
+                  <option value="select">юридические и бозопастность</option>
+                  <option value="select">аграрные</option>
+                  <option value="select">военные и спорт</option>
+                  <option value="select">строительство и архитектура</option>
+                  <option value="select">медицина</option>
+                  <option value="select">транспортные</option>
+                  <option value="select">менеджмент, бизнес и управление</option>
+                  <option value="select">технические</option>
+                  <option value="select">маркетинг, реклама и pr</option>
+                  <option value="select">логистика, вэд, торговля</option>
+                  <option value="select">легкая промышленность</option>
+                  <option value="select">пищевая промышленность</option>
+                  <option value="select">лингвистические</option>
+                  <option value="select">секретариат, делопроизводство, ахо</option>
+                  <option value="select">все</option>
                 </select>
               </div>
               <div class="form-item">
-                <label for="birth_place">Область:</label>
+                <label for="birth_place">Местоположение:</label>
                 <select class="theme-select" name="birth_place" id="birth_place">
                   <option value="select" disabled selected>Выберите область</option>
-                  <option value="Nur-Sultan">Нур-Султан</option>
-                  <option value="Almaty">Алматы</option>
-                  <option value="Shynkent">Шымкент</option>
-                  <option value="Akmola-obl">Акмолинская область</option>
-                  <option value="Aktobe-obl">Актюбинская область</option>
-                  <option value="Almaty-obl">Алматинская область</option>
-                  <option value="Atyrau-obl">Атырауская область</option>
-                  <option value="Vostocno-Kaz-obl">Восточно-Казахстанская область</option>
-                  <option value="Zhambyl-obl">Жамбылская область</option>
+                  <optgroup label="Акмолинская область">
+                    <option value="select">Абай</option>
+                    <option value="select">Аккол</option>
+                    <option value="select">Аксай</option>
+                    <option value="select">Аксу</option>
+                    <option value="select">Атбасар</option>
+                    <option value="select">Державинск</option>
+                    <option value="select">Ерейментау</option>
+                    <option value="select">Ишим</option>
+                    <option value="select">Кокшетау</option>
+                    <option value="select">Макинск</option>
+                    <option value="select">Нур-Султан (Астана)</option>
+                    <option value="select">Щучинск</option>
+                    <option value="select">Сергеевка</option>
+                    <option value="select">Степногорск</option>
+                    <option value="select">Степняк</option>
+                  </optgroup>
+                  <optgroup label="Актюбинская область">
+                    <option value="select">Актобе</option>
+                    <option value="select">Алга</option>
+                    <option value="select">Эмба</option>
+                    <option value="select">Хормтау</option>
+                    <option value="select">Кандигаш</option>
+                    <option value="select">Шалкар</option>
+                    <option value="select">Темир</option>
+                    <option value="select">Жем</option>
+                  </optgroup>
                 </select>
               </div>
             </div>
@@ -596,7 +657,7 @@
           <div class="af-container-row">
             <div class="col-1 color-pad">
               Copyright © Все права защищены.<span class="sep"> | </span><a
-                href="https://afthemes.com/products/newsphere">INTER-ACTION.KZ - Образовательный портал</div>
+                href="https://afthemes.com/products/newsphere">INTER-ACTION.KZ - Образовательный портал</a></div>
           </div>
         </div>
       </div>
@@ -616,6 +677,7 @@
   <script src="libs/marquee/jquery.marquee.min.js"></script>
   <script src="libs/theiaStickySidebar/theia-sticky-sidebar.min.js"></script>
   <script src="libs/imask/imask.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
   <script src="libs/select2/js/select2.min.js"></script>
   <script src="libs/script.js"></script>
   <!-- <script src="libs/fixed-header-script.js"></script> -->

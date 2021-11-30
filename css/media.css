@@ -30,6 +30,9 @@
   .lang-list {
     margin: 0 20px;
   }
+  .header-layout-3 .site-header .site-branding .site-title, .site-branding .site-title {
+    font-size: 28px;
+  }
 }
 
 /* sm <= Medium (md) */
@@ -60,6 +63,24 @@
     text-align: left;
     font-size: 14px;
   }
+  .header-style1 .main-header .af-flex-container > div:nth-child(2) {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .main-header .banner-promotions-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  .logotype {
+    margin: 0 auto;
+  }
+  .header-layout-3 .site-header .site-branding .site-title, .site-branding .site-title {
+    font-size: 24px;
+    margin-bottom: 7px !important;
+  }
+  .welcome-block__video video {
+    height: 100%;
+  }
 }
 
 /* xs <= Small (sm) */
@@ -79,6 +100,12 @@
   }
   .grid-items-2 {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .logotype {
+    max-width: 120px;
+  }
+  .site-branding .site-description {
+    font-size: 14px;
   }
 }
 
