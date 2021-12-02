@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
+
+  <title>Simple Starter</title>
+  <meta name="description" content="Simple Starter Description">
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" href="images/favicon.png">
+  <meta property="og:image" content="images/preview.jpg">
+
+
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="libs/sidr/css/sidr.bare.min.css">
+  <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+  <link rel="stylesheet" href="libs/select2/css/select2.min.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body class="aft-default-mode  aft-sticky-sidebar single single-post">
+
+
+  <div id="page" class="site">
+    <header id="masthead" class="header-style1 header-layout-1">
+      <div class="top-header">
+        <div class="container-wrapper">
+          <div class="top-bar-flex">
+            <div class="top-bar-left col-2">
+              <div class="date-bar-left">
+                <span class="topbar-date">Ноябрь 17, 2021</span>
+              </div>
+            </div>
+            <div class="top-bar-right col-2">
+              <div class="top-auth">
+                <div class="auth-block">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                  <a href="/register.html">Перейти на сайт</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="content" class="container-wrapper">
+      <div class="cabinet">
+        <h4 class="header-after1 cabinet-title"><span class="header-after category-color-1">Личный кабинет</span></h4>
+        <div class="cabinet-columns">
+          <div class="cabinet-left">
+            <ul class="cabinet-nav">
+              <li class="active"><a href="#"><i class="fa fa-address-card" aria-hidden="true"></i> Личная информация</a></li>
+              <li><a href="#"><i class="fa fa-bar-chart-o" aria-hidden="true"></i>  Рейтинг</a></li>
+              <li><a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Онлайн подача заявки на учебу</a></li>
+              <li><a href="#"><i class="fa fa-sticky-note" aria-hidden="true"></i> Отправить предложение/жалобу</a></li>
+              <li><a href="#"><i class="fa fa-eyedropper" aria-hidden="true"></i> Исследование темы</a></li>
+              <li><a href="#"><i class="fa fa-money" aria-hidden="true"></i> Реклама</a></li>
+              <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Выход</a></li>
+            </ul>
+          </div>
+          <div class="cabinet-right">
+            <div class="cabinet-information">
+              <h6 class="cabinet-title">Личная информация</h6>
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Личная информация
+                    </button>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                       <form action="" class="user-form">
+                        <div class="form-row grid-items-3">
+                          <div class="form-item">
+                            <label for="first_name">Фамилия:</label>
+                            <input type="text" id="first_name" value="Айталиев">
+                          </div>
+                          <div class="form-item">
+                            <label for="second_name">Имя:</label>
+                            <input type="text" id="second_name" value="Азамат">
+                          </div>
+                          <div class="form-item">
+                            <label for="third_name">Отчество:</label>
+                            <input type="text" id="third_name" value="Айталиевич">
+                          </div>
+                        </div>
+                        <div class="form-row grid-items-3">
+                          <div class="form-item">
+                            <label for="birth_day">Дата рождения:</label>
+                            <input type="text" id="birth_day" value="20.10.1995">
+                          </div>
+                          <div class="form-item">
+                            <label for="birth_place">Место рождения:</label>
+                            <select class="theme-select" name="birth_place" id="birth_place">
+                              <option value="select" disabled>Выберите область</option>
+                              <option value="Akmola-obl">Акмолинская область</option>
+                              <option value="Aktobe-obl">Актюбинская область</option>
+                              <option value="Almaty-obl">Алматинская область</option>
+                              <option value="Atyrau-obl">Атырауская область</option>
+                              <option value="Vostocno-Kaz-obl">Восточно-Казахстанская область</option>
+                              <option value="Zhambyl-obl">Жамбылская область</option>
+                              <option value="Zhambyl-obl">Карагандинская область</option>
+                              <option value="Zhambyl-obl" selected>Кустанайская область</option>
+                              <option value="Zhambyl-obl">Кызылординская область</option>
+                              <option value="Zhambyl-obl">Мангистауская область</option>
+                              <option value="Zhambyl-obl">Туркистанская область</option>
+                              <option value="Zhambyl-obl">Павлодарская область</option>
+                              <option value="Zhambyl-obl">Северо-Казахстанская область</option>
+                              <option value="Zhambyl-obl">Западно-Казахстанская область</option>
+                              <option value="Zhambyl-obl">Другая страна</option>
+                            </select>
+                          </div>
+                          <div class="form-item">
+                            <label for="gr">Гражданство:</label>
+                            <input type="text" id="gr">
+                          </div>
+                        </div>
+                        <div class="form-row grid-items-2">
+                          <div class="form-item">
+                            <label for="sex">Пол:</label>
+                            <select class="theme-select" name="sex" id="sex">
+                              <option value="select" disabled selected>Выберите пол</option>
+                              <option value="male">Мужской</option>
+                              <option value="female">Женский</option>
+                            </select>
+                          </div>
+                          <div class="form-item">
+                            <label for="resume">Резюме:</label>
+                            <input type="file" id="resume">
+                          </div>
+                        </div>
+                        <div class="form-row grid-items-2">
+                          <div class="form-item">
+                            <label for="ud_num">Номер удостоверения:</label>
+                            <input type="number" id="ud_num">
+                          </div>
+                          <div class="form-item">
+                            <label for="skan">Скан номера удостоверения:</label>
+                            <input type="file" id="skan">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item cabinet-btn-submit">
+                            <button type="submit" class="btn">Сохранить</button>
+                          </div>
+                        </div>
+                       </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        О семье
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                        <div class="form-row">
+                          <span class="filter_title">Отец:</span>
+                          <div class="form-row grid-items-3">
+                            <div class="form-item">
+                              <label for="father_first_name">Фамилия:</label>
+                              <input type="text" id="father_first_name">
+                            </div>
+                            <div class="form-item">
+                              <label for="father_second_name">Имя:</label>
+                              <input type="text" id="father_second_name">
+                            </div>
+                            <div class="form-item">
+                              <label for="father_third_name">Отчество:</label>
+                              <input type="text" id="father_third_name">
+                            </div>
+                          </div>
+                          <div class="form-row grid-items-2">
+                            <div class="form-item">
+                              <label for="father_home">Адрес проживания:</label>
+                              <input type="text" id="father_home">
+                            </div>
+                            <div class="form-item">
+                              <label for="father_job">Должность:</label>
+                              <input type="text" id="father_job">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <span class="filter_title">Мать:</span>
+                          <div class="form-row grid-items-3">
+                            <div class="form-item">
+                              <label for="mother_first_name">Фамилия:</label>
+                              <input type="text" id="mother_first_name">
+                            </div>
+                            <div class="form-item">
+                              <label for="mother_second_name">Имя:</label>
+                              <input type="text" id="mother_second_name">
+                            </div>
+                            <div class="form-item">
+                              <label for="mother_third_name">Отчество:</label>
+                              <input type="text" id="mother_third_name">
+                            </div>
+                          </div>
+                          <div class="form-row grid-items-2">
+                            <div class="form-item">
+                              <label for="mother_home">Адрес проживания:</label>
+                              <input type="text" id="mother_home">
+                            </div>
+                            <div class="form-item">
+                              <label for="mother_job">Должность:</label>
+                              <input type="text" id="mother_job">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item cabinet-btn-submit">
+                            <button type="submit" class="btn">Сохранить</button>
+                          </div>
+                        </div>
+                       </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Контактные данные
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                          <div class="form-row">
+                            <div class="form-item">
+                              <label for="pmj">Постоянное место жительство:</label>
+                              <input type="text" id="pmj">
+                            </div>
+                          </div>
+                          <div class="form-row grid-items-3">
+                            <div class="form-item">
+                              <label for="home_phone">Домашний телефон:</label>
+                              <input type="text" id="home_phone">
+                            </div>
+                            <div class="form-item">
+                              <label for="personal_phone">Сотовый телефон:</label>
+                              <input type="text" id="personal_phone">
+                            </div>
+                            <div class="form-item">
+                              <label for="mail">Почта:</label>
+                              <input type="email" id="mail">
+                            </div>
+                          </div>
+                          <div class="form-row grid-items-3">
+                            <div class="form-item">
+                              <label for="vk">Ссылка на VK:</label>
+                              <input type="text" id="vk">
+                            </div>
+                            <div class="form-item">
+                              <label for="Instagram">Ссылка на Instagram:</label>
+                              <input type="text" id="Instagram">
+                            </div>
+                            <div class="form-item">
+                              <label for="telegram">Ссылка на Telegram:</label>
+                              <input type="email" id="telegram">
+                            </div>
+                          </div>
+                          <div class="form-row grid-items-3">
+                            <div class="form-item">
+                              <label for="Whatsapp">Ссылка на Whatsapp:</label>
+                              <input type="text" id="Whatsapp">
+                            </div>
+                            <div class="form-item">
+                              <label for="Twitter">Ссылка на Twitter:</label>
+                              <input type="text" id="Twitter">
+                            </div>
+                            <div class="form-item">
+                              <label for="other_soc">Другое:</label>
+                              <input type="email" id="other_soc">
+                            </div>
+                          </div>
+                        <div class="form-row">
+                          <div class="form-item cabinet-btn-submit">
+                            <button type="submit" class="btn">Сохранить</button>
+                          </div>
+                        </div>
+                       </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Информация об образовании
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="docs">Загрузить документы:</label>
+                            <input type="file" id="docs">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="more_text">Еще:</label>
+                            <textarea id="more_text"></textarea>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Информация о владений языком
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="docs">Загрузить документы:</label>
+                            <input type="file" id="docs">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="more_text">Еще:</label>
+                            <textarea id="more_text"></textarea>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Информация о должности
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="docs">Загрузить документы:</label>
+                            <input type="file" id="docs">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="more_text">Еще:</label>
+                            <textarea id="more_text"></textarea>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Достижения
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <form action="" class="user-form">
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="docs">Загрузить документы:</label>
+                            <input type="file" id="docs">
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="form-item">
+                            <label for="more_text">Еще:</label>
+                            <textarea id="more_text"></textarea>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="primary-footer">
+        <div class="container-wrapper">
+          <div class="af-container-row">
+            <div class="primary-footer-area col-md-4 col-sm-12">
+              <section class="widget-area color-pad">
+                <div class="widget">
+                  <h2 class="widget-title widget-title-1"><span class="header-after">Обращение</span></h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint recusandae qui laudantium nostrum
+                    earum reprehenderit!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eum pariatur voluptates facere
+                    voluptatem sapiente. Harum porro fugiat soluta cumque architecto hic repellendus labore at!
+                  </p>
+                </div>
+              </section>
+            </div>
+            <div class="primary-footer-area col-md-4 col-sm-12">
+              <section class="widget-area color-pad">
+                <div class="widget">
+                  <h2 class="widget-title widget-title-1"><span class="header-after">Категории</span></h2>
+                  <div class="tagcloud"><a href="https://demo.afthemes.com/newsphere-pro/blog/category/business/"
+                      class="tag-cloud-link tag-link-2 tag-link-position-1" style="font-size: 15.636363636364pt;"
+                      aria-label="Business (3 items)">Business</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/health/"
+                      class="tag-cloud-link tag-link-3 tag-link-position-2" style="font-size: 8pt;"
+                      aria-label="Health (1 item)">Health</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/international/"
+                      class="tag-cloud-link tag-link-24 tag-link-position-3" style="font-size: 20.218181818182pt;"
+                      aria-label="International (5 items)">International</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/national/"
+                      class="tag-cloud-link tag-link-25 tag-link-position-4" style="font-size: 20.218181818182pt;"
+                      aria-label="National (5 items)">National</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/newsbeat/"
+                      class="tag-cloud-link tag-link-4 tag-link-position-5" style="font-size: 20.218181818182pt;"
+                      aria-label="Newsbeat (5 items)">Newsbeat</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/politics/"
+                      class="tag-cloud-link tag-link-26 tag-link-position-6" style="font-size: 15.636363636364pt;"
+                      aria-label="Politics (3 items)">Politics</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/protest/"
+                      class="tag-cloud-link tag-link-27 tag-link-position-7" style="font-size: 12.581818181818pt;"
+                      aria-label="Protest (2 items)">Protest</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/research/"
+                      class="tag-cloud-link tag-link-28 tag-link-position-8" style="font-size: 12.581818181818pt;"
+                      aria-label="Research (2 items)">Research</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/science/"
+                      class="tag-cloud-link tag-link-5 tag-link-position-9" style="font-size: 8pt;"
+                      aria-label="Science (1 item)">Science</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/space/"
+                      class="tag-cloud-link tag-link-29 tag-link-position-10" style="font-size: 8pt;"
+                      aria-label="Space (1 item)">Space</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/sports/"
+                      class="tag-cloud-link tag-link-6 tag-link-position-11" style="font-size: 15.636363636364pt;"
+                      aria-label="Sports (3 items)">Sports</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/stories/"
+                      class="tag-cloud-link tag-link-7 tag-link-position-12" style="font-size: 12.581818181818pt;"
+                      aria-label="Stories (2 items)">Stories</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/tech/"
+                      class="tag-cloud-link tag-link-8 tag-link-position-13" style="font-size: 12.581818181818pt;"
+                      aria-label="Tech (2 items)">Tech</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/trending/"
+                      class="tag-cloud-link tag-link-30 tag-link-position-14" style="font-size: 22pt;"
+                      aria-label="Trending (6 items)">Trending</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/women/"
+                      class="tag-cloud-link tag-link-31 tag-link-position-15" style="font-size: 8pt;"
+                      aria-label="Women (1 item)">Women</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/world/"
+                      class="tag-cloud-link tag-link-9 tag-link-position-16" style="font-size: 12.581818181818pt;"
+                      aria-label="World (2 items)">World</a>
+                  </div>
+                </div>
+                <div class="widget">
+                  <h2 class="widget-title widget-title-1"><span class="header-after">Теги</span></h2>
+                  <div class="tagcloud"><a href="https://demo.afthemes.com/newsphere-pro/blog/category/business/"
+                      class="tag-cloud-link tag-link-2 tag-link-position-1" style="font-size: 15.636363636364pt;"
+                      aria-label="Business (3 items)">Business</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/health/"
+                      class="tag-cloud-link tag-link-3 tag-link-position-2" style="font-size: 8pt;"
+                      aria-label="Health (1 item)">Health</a>
+                    <a href="https://demo.afthemes.com/newsphere-pro/blog/category/international/"
+                      class="tag-cloud-link tag-link-24 tag-link-position-3" style="font-size: 20.218181818182pt;"
+                      aria-label="International (5 items)">International</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="primary-footer-area col-md-4 col-sm-12">
+              <section class="widget-area color-pad">
+                <div class="widget">
+                  <h2 class="widget-title widget-title-1"><span class="header-after">Поиск</span></h2>
+                  <form role="search" method="get" class="search-form"
+                    action="https://demo.afthemes.com/newsphere-pro/">
+                    <label>
+                      <span class="screen-reader-text">Поиск:</span>
+                      <input type="search" class="search-field" placeholder="Поиск …" value="" name="s">
+                    </label>
+                    <input type="submit" class="search-submit" value="Поиск">
+                  </form>
+                </div>
+                <div class="widget">
+                  <h2 class="widget-title widget-title-1"><span class="header-after">Контакты</span></h2>
+                  <p>
+                    Контактные данные
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-info">
+        <div class="container-wrapper">
+          <div class="af-container-row">
+            <div class="col-1 color-pad">
+              Copyright © Все права защищены.<span class="sep"> | </span><a
+                href="https://afthemes.com/products/newsphere">INTER-ACTION.KZ - Образовательный портал</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script src="libs/jquery/jquery-3.6.0.min.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/skip-link-focus-fix.js"></script>
+  <script src="libs/swiper/js/swiper.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="libs/sidr/js/jquery.sidr.min.js"></script>
+  <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="libs/jquery-match-height/jquery.matchHeight.min.js"></script>
+  <script src="libs/marquee/jquery.marquee.min.js"></script>
+  <script src="libs/theiaStickySidebar/theia-sticky-sidebar.min.js"></script>
+  <script src="libs/imask/imask.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script src="libs/select2/js/select2.min.js"></script>
+  <script src="libs/script.js"></script>
+  <!-- <script src="libs/fixed-header-script.js"></script> -->
+  <script src="libs/pagination-script.js"></script>
+
+  <script src="js/common.js"></script>
+
+</body>
+
+</html>

@@ -7,7 +7,9 @@
 
 /* lg <= Extra large (xl) */
 @media (max-width : 1200px) {
-
+  .cabinet-columns {
+    grid-template-columns: auto;
+  }
 }
 
 /* md <= Large (lg) */
@@ -106,6 +108,22 @@
   }
   .site-branding .site-description {
     font-size: 14px;
+  }
+  .cabinet {
+    margin: 20px auto 0;
+  }
+  .cabinet-nav li a {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .cabinet-right {
+    padding: 10px 10px 20px 10px;
+  }
+  .cabinet-information .cabinet-title {
+    font-size: 15px;
+  }
+  .cabinet-columns {
+    grid-gap: 15px;
   }
 }
 

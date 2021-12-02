@@ -639,3 +639,72 @@ body.aft-light-mode .aft-blocks.banner-carousel-1-wrap , body.aft-dark-mode .aft
 .main-header .af-flex-container {
   justify-content: space-between;
 }
+.cabinet {
+  position: relative;
+  margin: 30px auto;
+  width: 100%;
+}
+.cabinet-title {
+  text-align: center;
+}
+.cabinet-columns {
+  display: grid;
+  grid-template-columns: 350px auto;
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+.cabinet-left {
+  position: relative;
+  box-sizing: border-box;
+}
+.cabinet-nav {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+.cabinet-nav li {
+  border-bottom: 1px solid #ccc;
+}
+.cabinet-nav li.active,
+.cabinet-nav li:last-child {
+  border-bottom: none;
+}
+.cabinet-nav li a {
+  display: block;
+  padding: 15px 10px 15px 20px;
+}
+.cabinet-nav li.active a {
+  background-color: #ffbf3f;
+  font-weight: 600;
+}
+.cabinet-nav li a .fa {
+  width: 30px;
+}
+.cabinet-information .cabinet-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.cabinet-right {
+  position: relative;
+  background-color: #fff;
+  padding: 30px 10px 15px 20px;
+}
+.cabinet-btn-submit {
+  text-align: right;
+  margin-top: 5px;
+}
+.accordion .card-header {
+  border-bottom: 1px solid #ccc;
+}
+.accordion .card-header .btn {
+  background: transparent !important;
+  outline: none;
+  padding: 5px 0;
+}
+.accordion .card-header .btn:hover,
+.accordion .card-header .btn:focus {
+  text-decoration: none !important;
+}
+.accordion .card-body {
+  padding: 15px 0;
+}
